@@ -276,7 +276,3 @@ model = genai.GenerativeModel('models/gemini-2.5-flash-image')
 - **Official Docs:** https://ai.google.dev/docs
 - **Community:** https://discuss.ai.google.dev/
 - **Status:** https://status.cloud.google.com/
-
----
-
-For general troubleshooting, see [troubleshooting.md](troubleshooting.md)
