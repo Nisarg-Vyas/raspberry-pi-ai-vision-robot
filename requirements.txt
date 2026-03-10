@@ -1,0 +1,21 @@
+# AI and APIs
+google-generativeai>=0.3.0
+
+# Hardware Control
+RPi.GPIO>=0.7.1
+
+# Computer Vision
+opencv-python>=4.5.0
+Pillow>=9.0.0
+
+# Audio Processing
+SpeechRecognition>=3.10.0
+gtts>=2.3.0
+pygame>=2.1.0
+pyaudio>=0.2.11
+
+# Display (optional - for future OLED)
+adafruit-circuitpython-ssd1306>=2.12.0
+
+# Utilities
+python-dotenv>=0.19.0

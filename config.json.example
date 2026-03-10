@@ -1,0 +1,12 @@
+{
+    "gemini_api_key": "YOUR_GEMINI_API_KEY_HERE",
+    "robot_name": "RoboAssistant",
+    "settings": {
+        "motor_speed_default": 60,
+        "camera_resolution_width": 640,
+        "camera_resolution_height": 480,
+        "microphone_energy_threshold": 4000,
+        "speech_rate": 150,
+        "safe_distance_cm": 20
+    }
+}
