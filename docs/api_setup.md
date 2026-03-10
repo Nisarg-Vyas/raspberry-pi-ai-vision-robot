@@ -294,4 +294,4 @@ model = genai.GenerativeModel('models/gemini-2.5-flash-image')
 
 ---
 
-For general troubleshooting, see [TROUBLESHOOTING.md](TROUBLESHOOTING.md)
+For general troubleshooting, see [troubleshooting.md](troubleshooting.md)
