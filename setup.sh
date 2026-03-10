@@ -71,6 +71,7 @@ fi
 # Make test scripts executable
 echo ""
 echo "🔧 Making test scripts executable..."
+chmod +x tests/*.py 2>/dev/null || true
 chmod +x tests/*.sh 2>/dev/null || true
 
 # Create directories
