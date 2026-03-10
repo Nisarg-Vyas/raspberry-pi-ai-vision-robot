@@ -510,4 +510,4 @@ sudo apt update && sudo apt upgrade
 
 ---
 
-For hardware-specific issues, see [HARDWARE_GUIDE.md](HARDWARE_GUIDE.md)
+For hardware-specific issues, see [hardware_guide.md](hardware_guide.md)
