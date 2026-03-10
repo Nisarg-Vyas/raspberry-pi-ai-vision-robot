@@ -185,7 +185,7 @@ Tests different TTS voices to find the best one
 | Gemini API error | Verify API key in config.json |
 | Ultrasonic out of range | Check voltage divider circuit |
 
-For detailed troubleshooting, see [TROUBLESHOOTING.md](docs/TROUBLESHOOTING.md)
+For detailed troubleshooting, see [TROUBLESHOOTING.md](docs/troubleshooting.md)
 
 ## 🚀 Usage
 
@@ -301,7 +301,7 @@ self.recognizer.energy_threshold = 3000  # More sensitive
 ### Motors moving wrong direction
 See `docs/TROUBLESHOOTING.md` for detailed motor wiring fixes.
 
-For more issues, see [TROUBLESHOOTING.md](docs/TROUBLESHOOTING.md)
+For more issues, see [TROUBLESHOOTING.md](docs/troubleshooting.md)
 
 ## 🎯 How It Works
 
@@ -376,12 +376,6 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 - [Raspberry Pi Foundation](https://www.raspberrypi.org/)
 - [OpenCV](https://opencv.org/) community
 - Python speech recognition libraries
-
-## 📧 Contact
-
-Your Name - [@yourtwitter](https://twitter.com/yourtwitter) - your.email@example.com
-
-Project Link: [https://github.com/yourusername/ai-robot](https://github.com/yourusername/ai-robot)
 
 ## ⭐ Star History
 
