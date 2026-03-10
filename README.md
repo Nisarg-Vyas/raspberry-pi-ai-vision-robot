@@ -2,10 +2,6 @@
 
 An intelligent robot built with Raspberry Pi that combines computer vision, natural language processing, and autonomous navigation using Google's Gemini AI.
 
-![Python](https://img.shields.io/badge/python-3.7+-blue.svg)
-![License](https://img.shields.io/badge/license-MIT-green.svg)
-![Platform](https://img.shields.io/badge/platform-Raspberry%20Pi-red.svg)
-
 ## ✨ Features
 
 - 🗣️ **Natural Language Understanding** - Understands commands in ANY phrasing (no hardcoded phrases)
@@ -14,10 +10,6 @@ An intelligent robot built with Raspberry Pi that combines computer vision, natu
 - ⏸️ **Interruptible Speech** - Say "stop talking" to interrupt, "continue" to resume
 - 🚗 **Smart Motor Control** - Four-wheel drive with PWM speed control
 - 🎯 **Intent Recognition** - AI parses direction, speed, and duration from natural commands
-
-## 📹 Demo
-
-[Add your demo video/GIF here]
 
 ## 🛠️ Hardware Components
 
@@ -185,8 +177,6 @@ Tests different TTS voices to find the best one
 | Gemini API error | Verify API key in config.json |
 | Ultrasonic out of range | Check voltage divider circuit |
 
-For detailed troubleshooting, see [TROUBLESHOOTING.md](docs/troubleshooting.md)
-
 ## 🚀 Usage
 
 ### Start the Robot
@@ -252,33 +242,34 @@ python test_camera.py
 ## 🏗️ Project Structure
 ```
 ai-robot/
-├── robot_advanced_fixed.py       # Main robot program ⭐
-├── config.json                   # API keys (create from example)
 ├── config.json.example           # API key template
 ├── setup.sh                      # Installation script
 ├── requirements.txt              # Python dependencies
 ├── .gitignore                    # Git ignore rules
 ├── LICENSE                       # MIT License
 ├── README.md                     # This file
-├── CONTRIBUTING.md               # Contribution guidelines
 │
-├── tests/                        # Testing utilities
-│   ├── test_motors.py           # Test motor movements
-│   ├── test_camera.py           # Test webcam capture
-│   ├── test_speaker.py          # Test audio output
-│   ├── test_microphone.py       # Test audio input
-│   ├── test_gemini.py           # Test AI text responses
-│   ├── test_gemini_vision.py    # Test AI vision
-│   ├── test_ultrasonic.py       # Test distance sensor
-│   ├── test_voices.py           # Test different TTS voices
-│   ├── fix_motors.py            # Motor direction diagnostic
-│   ├── check_models.py          # List available AI models
-│   └── quick_test.sh            # Run all tests
+├── codes/
+│   ├── source.py/               # Main robot program ⭐
+│   └── tests/                   # Testing utilities
+│       ├── test_motors.py           # Test motor movements
+│       ├── test_camera.py           # Test webcam capture
+│       ├── test_speaker.py          # Test audio output
+│       ├── test_microphone.py       # Test audio input
+│       ├── test_gemini.py           # Test AI text responses
+│       ├── test_gemini_vision.py    # Test AI vision
+│       ├── test_ultrasonic.py       # Test distance sensor
+│       ├── test_voices.py           # Test different TTS voices
+│       ├── fix_motors.py            # Motor direction diagnostic
+│       ├── check_models.py          # List available AI models
+│       └── quick_test.sh            # Run all tests
 │
-└── docs/                         # Documentation
-    ├── HARDWARE_GUIDE.md        # Hardware setup guide
-    ├── TROUBLESHOOTING.md       # Troubleshooting guide
-    └── API_SETUP.md             # API configuration guide
+├── docs/                        # Documentation
+│   ├── HARDWARE_GUIDE.md        # Hardware setup guide
+│   ├── TROUBLESHOOTING.md       # Troubleshooting guide
+│   └── API_SETUP.md             # API configuration guide
+└── images/
+    └── images of robot
 ```
 
 ## 🔧 Troubleshooting
@@ -297,12 +288,6 @@ Lower the microphone energy threshold:
 ```python
 self.recognizer.energy_threshold = 3000  # More sensitive
 ```
-
-### Motors moving wrong direction
-See `docs/TROUBLESHOOTING.md` for detailed motor wiring fixes.
-
-For more issues, see [TROUBLESHOOTING.md](docs/troubleshooting.md)
-
 ## 🎯 How It Works
 
 ### 1. Natural Language Processing
@@ -355,27 +340,6 @@ This project uses Google Gemini API (free tier available):
 - Get your key: https://makersuite.google.com/app/apikey
 - Free tier: 15 requests/minute
 - **Never commit `config.json` to GitHub**
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 👏 Acknowledgments
-
-- [Google Gemini API](https://ai.google.dev/) for AI capabilities
-- [Raspberry Pi Foundation](https://www.raspberrypi.org/)
-- [OpenCV](https://opencv.org/) community
-- Python speech recognition libraries
 
 ## ⭐ Star History
 
