@@ -198,21 +198,6 @@ def ask_ai(self, question):
 
 ---
 
-## Upgrading to Paid Tier
-
-If you need more than free tier:
-
-1. Visit: https://ai.google.dev/pricing
-2. Current pricing (as of 2025):
-   - Pay-as-you-go model
-   - $0.50 per million tokens (input)
-   - $1.50 per million tokens (output)
-
-3. Enable billing in Google Cloud Console
-4. Same API key continues to work
-
----
-
 ## Checking Available Models
 ```bash
 python tests/check_models.py
