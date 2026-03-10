@@ -1,0 +1,6 @@
+robot_env/
+__pycache__/
+*.pyc
+config.json
+.env
+*.log
